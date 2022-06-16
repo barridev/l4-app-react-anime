@@ -1,10 +1,10 @@
 export type Event = {
-    id: string
-} & EventDescription
+  id: string;
+} & EventDescription;
 
 export type EventDescription = {
-    name: string
-    date: Date
-    description: string
-    adress: string
-}
+  name: string;
+  date: Date;
+  description: string;
+  adress: string;
+};
